@@ -96,3 +96,9 @@ set expandtab
 let g:gruvbox_contrast_dark='hard'
 set bg=dark
 colorscheme gruvbox 
+
+" Set fold method
+set foldmethod=indent
+
+" Let file be unfolded when initially opened
+set foldlevelstart=99
